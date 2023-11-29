@@ -6,7 +6,7 @@ const sumaDosNumeros = require("./utils");
 
 app.get("/", (req, res) => {
   const resultado = sumaDosNumeros();
-  res.send(`Resultado de la suma a evaluar: ${resultado}`);
+  res.send(`Resultado de la nueva suma a evaluar: ${resultado}`);
 });
 
 app.listen(PORT, () => {
